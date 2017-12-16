@@ -15,7 +15,7 @@ name                     : "Éric N"
 description              : "Un carnet de notes sur le numérique et ses applications à l'usage de l'étude et de la valorisation du patrimoine des bibliothèques."
 url                      : # "/meta/"  # the base hostname & protocol for your site e.g. "https://enbmn.frama.io"
 baseurl                  : "/meta" # http://localhost:4000/meta/
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : GitHub enbmn/meta
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
  breadcrumbs            : true
 words_per_minute         : 200
@@ -76,9 +76,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-universal"
   google:
-    tracking_id          :
+    tracking_id          : UA-39919214-3
+
 
 
 # Site Author
