@@ -1,0 +1,11 @@
+# main links
+main:
+
+- title: "Carnet"
+  url: /carnet/
+- title: "À  propos"
+  url: /apropos/
+- title: "Contact"
+  url: /contact/
+# - title: "Sitemap"
+#   url: /sitemap/

@@ -1,0 +1,58 @@
+---
+layout: single
+title: Un site statique avec Jekyll
+date: '2017-11-02'
+excerpt: Quelques mots sur l'outil utilisé pour construire ce site.
+tags:
+  - outils
+permalink: 'carnet/:title'
+toc: true
+toc_label: Sommaire
+toc_icon: file-text
+author_profile: false
+related: false
+header:
+  image: null
+  overlay_color: 'rgb(0, 0, 0)'
+---
+
+Il y a aujourd'hui pléthore d'outils pour monter un blog : Wordpress, Drupal, Dotclear, etc. Au final, souvent des usines à gaz si vous voulez juste servir quelques pages et images. C'est lourd, lent et doit être mis à jour en permanence, souffre de failles de sécurités, sans compter qu'il faut un hébergeur qui supporte `PHP` et `MySql`. De tout ça, pour un simple blog comme celui-ci (même pour plus élaboré d'ailleurs) on peut se passer. Et comme on n'apprend rien sans tester, je me suis décidé à apprendre à utiliser **Jekyll** plutôt qu'à perdre ce temps à gérer un Wordpress.
+
+# Qu'est-ce que Jekyll
+
+[**Jekyll**](https://jekyllrb.com/) est un générateur de site statique (en langage `Ruby`). Statique signifie que sur le serveur on n'_upload_ que du `HTML`, des pages statiques donc, des **CSS** et éventuellement du **JavaScript**. Pas besoin d'une base de données et de `PHP` pour construire le site à la volée, tout est prêt à être lu, rapidement, coté client. C'est le concept de la [JAMstack](https://jamstatic.fr/2017/03/16/5-raisons-de-tester-la-jamstack/) (**JavaScript**, **APIs** et **Markup**). Vous générez et conservez en local toutes vos données, dans un format lisible (en `Markdown` [voir ici]({{ site.baseurl }}/carnet/utiliser-Markdown)), inutile de maîtriser les bases de données pour rapatrier vos contenus en cas de changement d'hébergeur ou autre.
+
+Quelques fichiers et dossiers suffisent à générer un blog, on peut y ajouter des plugins, adapter ou créer des thèmes, le tout reste assez simple. **Jekyll** peut tourner en local, pas besoin d'internet pour écrire vos billets (ou voir le résultat après compilation). Et la rédaction des pages se fait en Markdown, un simple bloc note suffit !
+
+De par son fonctionnement **Jekyll** offre une grande souplesse : le contenu est séparé du contenant. On a des fichiers de structure pour construire les pages `HTML`, ils sont écrits en **Liquid**, une syntaxe de _templating_ ([voir ici]({{ site.baseurl }}/carnet/Jekyll-Liquid)), des `CSS`. Au moment de la génération du site, **Liquid** va chercher les contenus (les fichiers en `Markdown`) pour compiler les pages dans un dossier `_site`. Il ne reste plus qu'à les déposer sur un serveur, ou bien on envoie (`push`) toutes les sources sur un dépôt (_repository_) **Github** qui s'occupe de générer et servir le site. Le tout est donc "relativement" simple, et extrêmement rapide.
+
+# Jekyll et Github
+
+**Jekyll** est implémenté (et d'ailleurs créé par) dans [Github](https:www.github.com). **Github** est une plateforme très populaire chez les développeurs, elle sert au dépôt de code open source avec gestion avancée du _versionning_ et prise en charge poussée du travail en équipe.<br>
+C'est un outil extrêmement puissant (mais du coup ardu à prendre en main) que l'on peut utiliser en bibliothèque pour par exemple héberger des sources du domaine public encodées en TEI (j'y reviendrai). **Github** offre aussi un service très utile, les **Github Pages**, utilisées à la base pour héberger -- gratuitement -- la documentation des projets déposés ou les sites personnels des développeurs.<br>
+**Github** sait transformer un dépôt en site statique en faisant tourner lui-même le compilateur de **Jekyll**. Vous n'avez qu'à rédiger vos pages sur votre machine, les _pusher_ sur votre dépôt, **Github** les compile, votre site est à jour. Pas besoin de `FTP` ou de rester des heures connecté à votre plateforme **Wordpress** pour rédiger un billet.
+
+<figure>
+  <a href="{{ site.baseurl }}/assets/images/gitlab-structure.png">
+  <img src="{{ site.baseurl }}/assets/images/gitlab-structure.png">
+</a>
+  <figcaption>Architecture d'un site en Jekyll sur Git.</figcaption>
+</figure>
+
+# Les limites
+
+Les limites sont évidemment techniques, il faut être capable de mettre les mains dans le cambouis pour arriver à monter un tel site, mais rien d'insurmontable, la preuve...<br>
+Le plus gênant sera en définitive la difficulté à en faire un outil partagé, il ne convient bien qu'à un site à un seul rédacteur ou pour quelques pages documentant un projet (encore qu'avec **Github** et en déployant à l'aide de [Netlify](https://www.netlify.com) on pourrait y arriver mais les rédacteurs devraient le maîtriser...). D'ailleurs de plus en plus de services se développent autour des sites statiques, qu'il s'agissent d'hébergeurs ou de sur-couche d'administration, tous les besoins sont probablement déjà comblés, il suffit de trouver le bon workflow. Mais le but doit tout de même rester la simplicité.
+
+# Est-ce vraiment utile ?
+
+Oui **Jekyll** est, ou peut, être utile, il est fait pour créer des sites simples, de quoi documenter vos projets en cours, gratuitement sans avoir besoin d'un hébergeur et d'un nom de domaine. Si vous faites de la TEI, de l'EAD pour pouvoir travailler en équipe et pour partager vos sources avec des checheurs ou des collaborateurs extérieurs, etc., **Github** aussi est intéressant, et du coup grâce à **Jekyll** documenter votre projet et le faire connaître sur la même plateforme devient très simple. Nul besoin de la DSI et de prendre le risque de vous retrouver avec une usine à gaz totalement inadaptée à votre besoin. Il y a bien entendu des compétences à développer, mais bon, on est là pour ça non ?
+
+# Des alternatives ?
+
+**Jekyll** n'est pas le seul gestionnaire de site statique (bien que le plus populaire), il y a aussi [**Hugo**](https://gohugo.io/) qui tend à lui voler la vedette (il est écrit en `GO` et est réputé beaucoup plus rapide pour la compilation) et [beaucoup d'autres](https://www.staticgen.com/).
+
+De même, pour le dépôt de sources (ou de n'importe quoi d'autre en fait) avec _versionning_, il n'y a pas que **Github**, il existe aussi des outils tiers basés sur [Git](https://fr.wikipedia.org/wiki/Git) (le noyau open source de **Github**) comme [BitBucket](https://bitbucket.org/) ou [GitLab](https://about.gitlab.com/), ainsi que [FramaGit](https://framagit.org/) basé sur **Gitlab** pour les fervents du libre. L'intérêt de ces derniers est qu'ils proposent gratuitement, contrairement à **Github**, la possibilité de créer des dépôts privés (idéal pour des notes de travail).<br>
+0n peut aussi déployer gratuitement un site statique personnel à l'aide de [Netlify](https://www.netlify.com), ce qui nécessite toutefois d'avoir un dépôt **Git**.
+
+En conclusion, si vous avez des sources à mettre à disposition, des textes en `TEI`, des instruments de recherche en `EAD`, que sais-je, et que vous souhaitez documenter proprement tout cela, allez voir du côté de **Jekyll** et **Github**.
