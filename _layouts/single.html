@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+{% include breadcrumbs.html %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -13,6 +13,7 @@ layout: default
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
+
 
 <div id="main" role="main">
   {% include sidebar.html %}
@@ -38,7 +39,7 @@ layout: default
           <aside class="sidebar__right">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fa fa-{{ page.toc_icon | default: 'file-text' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=1 h_max=3 class="toc__menu" %}
+              {% include toc.html sanitize=true html=content h_min=1 h_max=5 class="toc__menu" %}
             </nav>
           </aside>
         {% endif %}

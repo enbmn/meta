@@ -2,6 +2,7 @@
 layout: single
 title: Contact
 permalink: /contact/
+author_profile: true
 excerpt: >-
   N'hésitez pas à me contacter chez gmail à eric.nunes.bmn si vous avez des
   questions ou des remarques à me faire sur l'un ou l'autre des sujets traités

@@ -1,10 +1,13 @@
 ---
 layout: archive
+title: Carnet
 permalink: /carnet/
-
+author_profile: true
+related: false
+header:
+  image: null
+  overlay_color: 'rgb(0, 0, 0)'
 ---
-<h1 class="site">Tous les billets</h1>
 {% for post in site.posts %}
 {% include archive-single.html %}
 {% endfor %}
-{% include paginator.html %}

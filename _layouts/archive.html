@@ -1,5 +1,9 @@
 ---
 layout: default
+toc: true
+toc_label: Sommaire
+toc_icon: file-text
+
 ---
 
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -20,7 +24,7 @@ layout: default
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
-      
+
     {% endunless %}
     {{ content }}
   </div>
