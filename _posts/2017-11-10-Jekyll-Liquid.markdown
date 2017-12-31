@@ -5,6 +5,7 @@ date: '2017-11-10'
 excerpt: >-
   Liquid est un langage de templating en Ruby conçu à l'origine pour Shopify et
   désormais disponible comme projet open source sur Github.
+share: true
 toc: true
 toc_label: Sommaire
 toc_icon: file-text

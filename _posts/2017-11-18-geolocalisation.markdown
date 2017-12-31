@@ -6,6 +6,7 @@ excerpt: >-
   Parmi les enjeux de la mise en ligne de collections numérisées en
   bibliothèques, la question des modes d'accès aux documents demeure
   primordiale.
+share: true
 toc: true
 toc_label: Sommaire
 toc_icon: file-text

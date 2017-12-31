@@ -6,12 +6,12 @@ tags:
   - outils
   - langage
 permalink: 'carnet/:title'
+share: true
 toc: true
 toc_label: Sommaire
 toc_icon: file-text
 excerpt: 'Qu''est-ce que la syntaxe Markdown, comment et pourquoi l''utiliser ?'
 author_profile: false
-related: true
 header:
   image: null
   overlay_color: 'rgb(0, 0, 0)'

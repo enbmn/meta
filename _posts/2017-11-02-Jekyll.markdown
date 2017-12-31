@@ -6,6 +6,7 @@ excerpt: Quelques mots sur l'outil utilisé pour construire ce site.
 tags:
   - outils
 permalink: 'carnet/:title'
+share: true
 toc: true
 toc_label: Sommaire
 toc_icon: file-text
