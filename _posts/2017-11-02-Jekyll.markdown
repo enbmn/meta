@@ -2,7 +2,9 @@
 layout: single
 title: Un site statique avec Jekyll
 date: '2017-11-02'
-excerpt: Quelques mots sur l'outil utilisé pour construire ce site.
+excerpt: >-
+  Quelques mots sur l'outil utilisé pour construire ce site et qui peut s'avérer
+  utile dans un contexte de valorisation patrimoniale.
 tags:
   - outils
 permalink: 'carnet/:title'
@@ -47,7 +49,7 @@ Le plus gênant sera en définitive la difficulté à en faire un outil partagé
 
 # Est-ce vraiment utile ?
 
-Oui **Jekyll** est, ou peut, être utile, il est fait pour créer des sites simples, de quoi documenter vos projets en cours, gratuitement sans avoir besoin d'un hébergeur et d'un nom de domaine. Si vous faites de la TEI, de l'EAD pour pouvoir travailler en équipe et pour partager vos sources avec des checheurs ou des collaborateurs extérieurs, etc., **Github** aussi est intéressant, et du coup grâce à **Jekyll** documenter votre projet et le faire connaître sur la même plateforme devient très simple. Nul besoin de la DSI et de prendre le risque de vous retrouver avec une usine à gaz totalement inadaptée à votre besoin. Il y a bien entendu des compétences à développer, mais bon, on est là pour ça non ?
+Oui **Jekyll** est, ou peut, être utile. Il est fait pour créer des sites simples, de quoi documenter vos projets en cours, gratuitement sans avoir besoin d'un hébergeur et d'un nom de domaine (bien qu'on ne puisse se passer des autorisations de la hiérarchie). Si vous faites de la TEI, de l'EAD, pour pouvoir travailler en équipe et pour partager vos sources avec des chercheurs ou des collaborateurs extérieurs, etc., **Github** aussi est intéressant, et du coup grâce à **Jekyll** documenter votre projet et le faire connaître sur la même plateforme devient très simple. Nul besoin de la DSI et de prendre le risque de vous retrouver avec une usine à gaz totalement inadaptée à votre besoin. Il y a bien entendu des compétences à développer, mais bon, on est là pour ça non ?
 
 # Des alternatives ?
 

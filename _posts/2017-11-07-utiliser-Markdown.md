@@ -27,16 +27,26 @@ Tout ça à la fois ! Pouvoir prendre des notes partout avec n'importe quel outi
 
 Ça n'a l'air de rien dit comme ça, mais qui, surtout si comme moi vous êtes dans un service doté de l'antépénultième version de **Word**, n'a pas été sollicité pour "aider" à ouvrir un fichier en `.odt` envoyé par un (heureux) correspondant possédant **LibreOffice**...
 
-Pour paraphraser Wikipedia, **Markdown** est une syntaxe de balisage simple, au format texte, lisible par l'humain (c'est un peu moche mais ça va) comme par les machines, ce qui le rend indépendant de tout logiciel spécifique (sauf pour le rendu, on y viendra). Un simple **WordPad** ou **TextEdit** suffisent pour rédiger et lire un texte en **Markdown** (il suffit d'utiliser l'extension `.md` ou `.markdown`).
+Pour paraphraser Wikipedia, **Markdown** est une syntaxe de balisage simple, au format texte, lisible par l'humain (c'est un peu moche mais n'est-ce pas le contenu qui compte ?) comme par les machines, ce qui le rend indépendant de tout logiciel spécifique (sauf pour le rendu, on y viendra). Un simple **WordPad** ou **TextEdit** suffisent pour rédiger et lire un texte en **Markdown** (il suffit d'utiliser l'extension `.md` ou `.markdown`).
 
-Je ne vous fais pas un cours sur la syntaxe **Markdown**, [on trouve ça partout](https://www.google.fr/search?q=syntaxe+markdown&oq=syntaxe+markdown&aqs=chrome..69i57.3984j0j4&sourceid=chrome&ie=UTF-8)
+Je ne vous ferai pas un cours ici sur la syntaxe **Markdown**, [on trouve ça partout](https://www.google.fr/search?q=syntaxe+markdown&oq=syntaxe+markdown&aqs=chrome..69i57.3984j0j4&sourceid=chrome&ie=UTF-8) mais vous le verrez c'est extrêmement simple.
+
+# Un format pour la diffusion multicanal
+
+Le grand intérêt de **Markdown** est qu'il permet de produire "assez" simplement des documents sous différentes formes, pour différentes plateformes, moyennant un processeur. Processeur aujourd'hui embarqué dans la plupart des éditeurs **Markdown** (ou, moins pratique, disponible en ligne de commande avec [Pandoc](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)).
+
+Et si je vous parle ici de **Markdown** c'est aussi parce que c'est l'outil de rédaction privilégié pour **Jekyll**.
+
+Étant un langage à balise, il est aisément convertible en `HTML,` ce qui le rend très intéressant pour la rédaction de billets de blog. D'ailleurs on peut y insérer du balisage `HTML,` ce qui permet de contourner quelques manques comme l'exposant par exemple (on en a toujours besoin dès lors que l'on parle de livre ancien...). Mais un même texte peut aussi être transformé en `PDF` depuis certains éditeurs (ou avec [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)) [^1], en`.odt` stylé (et oui...) etc.
+
+Car **Markdown** dispose des fonctions de base de formatage d'un texte (l'équivalent de ce qu'il est possible de faire en `HTML`), en réalité suffisamment pour rendre un texte intelligible sans le surcharger. Un autre avantage est donc qu'il permet de rester concentré sur le texte, sur l'écriture, de le faire sans "trop" de distractions (quelle police choisir, quel style...).
 
 # Les limites
 
-Les limites à l'utilisation de ce format sont surtout des limites d'usage – une fois passé le blocage psychologique "c'est un truc compliqué de geek" !
+Les limites à l'utilisation de ce format -- une fois passé le blocage psychologique "c'est un truc compliqué de geek" ! -- sont surtout des limites d'usage.
 
-Évidemment si vous n'avez à rédiger que des lettres à en-têtes, **Markdown** ne sera pas adapté. Mais pour ce qui va de la prise de notes en réunion avec une tablette ou votre téléphone à la rédaction de billets de blog ou de comptes-rendus, c'est l'outil idéal.<br>
-En effet, il permet d'écrire et de structurer rapidement et simplement vos notes à la volée, vous pouvez y revenir ensuite, les amender et/ou les envoyer pour publication à votre responsable éditorial qui sera ravi de pouvoir copier-coller votre texte dans **Wordpress** sans à avoir à tout restyler (il y a une option dans **Wordpress** pour le **Markdown**).
+Évidemment si votre quotidien est la rédaction de lettres à en-têtes, **Markdown** ne sera pas adapté. Mais pour ce qui va de la prise de notes en réunion avec une tablette ou votre téléphone à la rédaction de billets de blog ou de comptes-rendus, c'est l'outil idéal.<br>
+En effet, il permet d'écrire et de structurer rapidement et simplement vos notes, vous pouvez y revenir ensuite dans un autre outil, les amender et/ou les envoyer pour publication à votre responsable éditorial qui sera ravi de pouvoir copier-coller votre texte dans **Wordpress** sans à avoir à tout restyler (il y a une option dans **Wordpress** pour le **Markdown**).
 
 <figure>
   <a href="{{ site.baseurl }}/assets/images/atomMd.png">
@@ -45,16 +55,7 @@ En effet, il permet d'écrire et de structurer rapidement et simplement vos note
   <figcaption>Un texte en Markdown et sa prévisualisation dans Atom.</figcaption>
 </figure>
 
-Car **Markdown** dispose des fonctions de base de formatage d'un texte (l'équivalent de ce qu'il est possible de faire en `HTML`), en réalité suffisamment pour rendre un texte intelligible sans le surcharger. Un autre avantage est donc qu'il permet de rester concentré sur le texte, sur l'écriture, de le faire sans "trop" de distractions (quelle police choisir, quel style...).<br>
 Non il n'est pas à première vue _user friendly_, conditionnés que nous sommes par le dogme du **wysiwyg** (_what you see is what you get_, ce qui en passant n'est vrai qu'en apparence...). Mais en contrepartie il offre de multiples avantages.
-
-# Un format pour la diffusion multicanal
-
-Le grand intérêt de **Markdown** est qu'il permet de produire "assez" simplement des documents sous différentes formes, pour différentes plateformes, moyennant un processeur. Processeur embarqué dans la plupart des logiciels **Markdown** aujourd'hui (ou, moins pratique, disponible en ligne de commande avec [Pandoc](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)).
-
-Et si je vous parle ici de **Markdown** c'est aussi parce que c'est l'outil de rédaction privilégié pour **Jekyll**.
-
-Étant un langage à balise, il est aisément convertible en `HTML,` ce qui le rend très intéressant pour la rédaction de billets de blog. D'ailleurs on peut y insérer du balisage `HTML,` ce qui permet de contourner quelques manques comme l'exposant par exemple (on en a toujours besoin dès lors que l'on parle de livre ancien...). Mais un même texte peut aussi être transformé en `PDF` depuis certains éditeurs (ou avec [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)) [^1], en`.odt` stylé (et oui...) etc.
 
 # Des outils pour Markdown
 
