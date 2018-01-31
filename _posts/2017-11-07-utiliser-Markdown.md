@@ -37,7 +37,7 @@ Le grand intérêt de **Markdown** est qu'il permet de produire "assez" simpleme
 
 Et si je vous parle ici de **Markdown** c'est aussi parce que c'est l'outil de rédaction privilégié pour **Jekyll**.
 
-Étant un langage à balise, il est aisément convertible en `HTML,` ce qui le rend très intéressant pour la rédaction de billets de blog. D'ailleurs on peut y insérer du balisage `HTML,` ce qui permet de contourner quelques manques comme l'exposant par exemple (on en a toujours besoin dès lors que l'on parle de livre ancien...). Mais un même texte peut aussi être transformé en `PDF` depuis certains éditeurs (ou avec [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)) [^1], en`.odt` stylé (et oui...) etc.
+Étant un langage à balise, il est aisément convertible en `HTML,` ce qui le rend très intéressant pour la rédaction de billets de blog. D'ailleurs on peut y insérer du balisage `HTML,` et des caractères spéciaux en code ISO, On dispose donc de tout ce qu'il faut pour écrire. Mais un même texte peut aussi être transformé en `PDF` depuis certains éditeurs (ou avec [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)) [^1], en`.odt` stylé (et oui...) etc.
 
 Car **Markdown** dispose des fonctions de base de formatage d'un texte (l'équivalent de ce qu'il est possible de faire en `HTML`), en réalité suffisamment pour rendre un texte intelligible sans le surcharger. Un autre avantage est donc qu'il permet de rester concentré sur le texte, sur l'écriture, de le faire sans "trop" de distractions (quelle police choisir, quel style...).
 
