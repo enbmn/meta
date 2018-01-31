@@ -2,10 +2,7 @@
 layout: single
 title: À propos
 permalink: /apropos/
-excerpt: >-
-  Ce carnet est un projet personnel. Il a pour objet les techniques numériques
-  dans leurs applications à l'usage de l'étude et de la valorisation du
-  patrimoine des bibliothèques.
+excerpt: 'Ce carnet est un projet personnel. '
 date: 2017-11-06T00:00:00.000Z
 author_profile: true
 header:
