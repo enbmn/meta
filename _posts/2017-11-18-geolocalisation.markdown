@@ -43,7 +43,7 @@ Il y a plusieurs méthodes de géolocalisation, en fonction du corpus et des bes
 ## De façon ponctuelle, manuellement
 
 Souvent les données des documents numérisés sont issues du catalogue. Dans ce cas, on dispose comme base, si le catalogage est bien fait, d'informations de lieu dans les champs d'indexation. Si le catalogage est réalisé "pour" la numérisation, il faudra intégrer cet élément en veillant à ce que soit respecté la norme mise en œuvre (`dc:coverage` en rameau par exemple).<br>
-Géolocaliser "à la main" dans un catalogue de bibliothèque n'est pas "pertinent" car beaucoup trop lourd (et pas exploité). Mais si cela doit être fait ponctuellement, au niveau de la bibliothèque numérique, il existe beaucoup d'outils pour récupérer les coordonnées cartographiques, je n'en cite qu'un très pratique selon moi pour les positionnements fins (par exemple bâtiments détruits, etc) c'est [Geojson](http://geojson.io/#map=2/20.0/0.0). Cet outil vous permettra de positionner à la main des points et d'en récupérer les coordonnées sous forme de fichier `Json` (ou par simple copier coller).
+Géolocaliser "à la main" dans un catalogue de bibliothèque n'est pas "pertinent" car beaucoup trop lourd (et pas exploité). Mais si cela doit être fait ponctuellement, au niveau de la bibliothèque numérique, il existe beaucoup d'outils pour récupérer les coordonnées cartographiques, je n'en cite qu'un très pratique selon moi pour les positionnements fins (par exemple bâtiments détruits, etc) c'est [Geojson](http://geojson.io/#map=2/20.0/0.0)[^1]. Cet outil vous permettra de positionner à la main des points et d'en récupérer les coordonnées sous forme de fichier `Json` (ou par simple copier coller).
 
 <figure>
   <a href="{{ site.baseurl }}/assets/images/geojson.png">
@@ -54,9 +54,9 @@ Géolocaliser "à la main" dans un catalogue de bibliothèque n'est pas "pertine
 
 ## Géolocaliser en masse
 
-C'est évidemment la meilleur façon de proceder. Voici quelques exemples d'outils utilisables pour géolocaliser en masse vos données :
+C'est évidemment la meilleur façon de procéder. Voici quelques exemples d'outils utilisables pour géolocaliser en masse vos données (la fiabilité reste aléatoire) :
 
-- **[Adresse data gouv](https://adresse.data.gouv.fr/`CSV`/)**. Pour géolocaliser des documents il suffit d'_uplaoder_ un fichier `CSV` contenant des données de type nom de rue ou de lieux. J'ai testé avec du rameau, cela fonctionne bien, l'outil vous propose ensuite de télécharger le fichier enrichi des longitudes, latitudes et de plusieurs autres colonnes qui pourront parfois être utiles (nom du lieu en langage naturel, code postal, région) ou servir à corriger des erreurs comme le score de reconnaissance.
+- **[Adresse data gouv](https://adresse.data.gouv.fr/`CSV`/)**. Pour géolocaliser des documents il suffit d'_uplaoder_ un fichier `CSV` contenant des données de type nom de rue ou de lieux. J'ai testé avec du rameau, cela fonctionne bien si il n'y a qu'une entée, l'outil vous propose ensuite de télécharger le fichier enrichi des longitudes, latitudes et de plusieurs autres colonnes qui pourront parfois être utiles (nom du lieu en langage naturel, code postal, région) ou servir à corriger des erreurs comme le score de reconnaissance.
 
 <figure>
   <a href="{{ site.baseurl }}/assets/images/adresseGouv.png">
@@ -67,7 +67,7 @@ C'est évidemment la meilleur façon de proceder. Voici quelques exemples d'outi
 
 - sur le même principe existe [BatchGeo](https://fr.batchgeo.com) mais je ne l'ai pas testé, je me contente donc de le citer ici (si vous l'utilisez vous pouvez me faire des retours par mail) ;
 
-- enfin un autre outil existe, mais qui fera l'objet d'un billet ultérieur, car c'est un autre type d'outil, non dédié à la géolocalisation et très puissant. Il s'agit de **[Dataiku](https://www.dataiku.com/)** logiciel de _data mining_ qui propose – entre autres – une fonction de géolocalisation basée sur le contenu textuel des colonnes de votre `CSV.` Il est aussi utile pour nettoyer les `CSV,` par exemple un fichier généré avec **adresse.data.gouv** contiendra des erreurs qu'il pourrait être laborieux de corriger ligne à ligne, c'est là que **Dataiku** [^1] entre en jeu. Mais je n'entre pas dans les détails ici.
+- enfin un autre outil existe, mais qui fera l'objet d'un billet ultérieur, car c'est un autre type d'outil, non dédié à la géolocalisation et très puissant. Il s'agit de **[Dataiku](https://www.dataiku.com/)** logiciel de _data mining_ qui propose – entre autres – une fonction de géolocalisation basée sur le contenu textuel des colonnes de votre `CSV.` Il est aussi utile pour nettoyer les `CSV,` par exemple un fichier généré avec **adresse.data.gouv** contiendra des erreurs qu'il pourrait être laborieux de corriger ligne à ligne, c'est là que **Dataiku** [^2] entre en jeu. Mais je n'entre pas dans les détails ici.
 
 # Cartographier
 
@@ -96,4 +96,6 @@ Je ne citerai que [Leaflet](http://leafletjs.com/), car je l'ai déjà [utilisé
 
 --------------------------------------------------------------------------------
 
-[^1]: Voir aussi **[OpenRefine](http://openrefine.org/)**, développé par Google et open source.
+[^1]: Il existe aussi le moteur de OSM, [Nominatim](https://nominatim.openstreetmap.org/) si on reste au niveau bâtiment public, monument, rue, ville ou village il proposera toujours les mêmes coordonnées.
+
+[^2]: Voir aussi **[OpenRefine](http://openrefine.org/)**, développé par Google et open source.
