@@ -23,17 +23,17 @@ Voici ce qu'en dit Wikipedia :
 
 # Portabilité, interopérabilité et pérennité
 
-Tout ça à la fois ! Pouvoir prendre des notes partout avec n'importe quel outil et sur n'importe quelle plateforme (même un ipad ou un téléphone) et être sûr qu'elles resteront lisibles qu'elle que soit la plateforme ou le logiciel utilisé et ce pendant... longtemps et pas seulement jusqu'à ce que Microsoft ou autre ne ferme boutique.
+Tout ça à la fois ! Pouvoir prendre des notes partout avec n'importe quel outil et sur n'importe quelle plateforme (même un ipad ou un téléphone) et être sûr qu'elles resteront lisibles quelle que soit la plateforme ou le logiciel utilisé.
 
-Ça n'a l'air de rien dit comme ça, mais qui, surtout si comme moi vous êtes dans un service doté de l'antépénultième version de **Word**, n'a pas été sollicité pour "aider" à ouvrir un fichier en `.odt` envoyé par un (heureux) correspondant possédant **LibreOffice**...
+Ça n'a l'air de rien dit comme ça, mais qui, surtout si comme moi vous êtes dans un service doté de l'antépénultième version de **Word**, n'a pas été sollicité pour "aider" à ouvrir un fichier en `.odt` envoyé par un (relativement heureux) correspondant utilisant **LibreOffice**...
 
 Pour paraphraser Wikipedia, **Markdown** est une syntaxe de balisage simple, au format texte, lisible par l'humain (c'est un peu moche mais n'est-ce pas le contenu qui compte ?) comme par les machines, ce qui le rend indépendant de tout logiciel spécifique (sauf pour le rendu, on y viendra). Un simple **WordPad** ou **TextEdit** suffisent pour rédiger et lire un texte en **Markdown** (il suffit d'utiliser l'extension `.md` ou `.markdown`).
 
-Je ne vous ferai pas un cours ici sur la syntaxe **Markdown**, [on trouve ça partout](https://www.google.fr/search?q=syntaxe+markdown&oq=syntaxe+markdown&aqs=chrome..69i57.3984j0j4&sourceid=chrome&ie=UTF-8) mais vous le verrez c'est extrêmement simple.
+Je ne vais pas vous faire ici un cours sur la syntaxe **Markdown**, [on trouve ça partout](https://www.google.fr/search?q=syntaxe+markdown&oq=syntaxe+markdown&aqs=chrome..69i57.3984j0j4&sourceid=chrome&ie=UTF-8), mais vous le verrez c'est extrêmement simple.
 
 # Un format pour la diffusion multicanal
 
-Le grand intérêt de **Markdown** est qu'il permet de produire "assez" simplement des documents sous différentes formes, pour différentes plateformes, moyennant un processeur. Processeur aujourd'hui embarqué dans la plupart des éditeurs **Markdown** (ou, moins pratique, disponible en ligne de commande avec [Pandoc](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)).
+Le grand intérêt de **Markdown** est qu'il permet de produire "assez" simplement des documents sous différentes formes, pour différentes plateformes, moyennant un processeur. Processeur aujourd'hui embarqué dans la plupart des éditeurs **Markdown** (ou, moins pratique, disponible en ligne de commande avec [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc)).
 
 Et si je vous parle ici de **Markdown** c'est aussi parce que c'est l'outil de rédaction privilégié pour **Jekyll**.
 
@@ -77,8 +77,8 @@ Voici une petite sélection d'outils pour vous lancer dans **Markdown**.
 
 ## D'autres outils pratiques
 
-- [Tester Markdown en ligne avant de vous lancer](https://michelf.ca/projets/php-markdown/banc-d'essai/)
-- [Heck yes markdown](http://heckyesmarkdown.com/) est une api en ligne qui vous permet de transformer une page web (html) en texte balisé en **Markdown**
+- [Tester Markdown en ligne avant de vous lancer](https://michelf.ca/projets/php-markdown/banc-d'essai/) ;
+- [Heck yes markdown](http://heckyesmarkdown.com/) est une `API` en ligne qui vous permet de transformer une page web (html) en texte balisé en **Markdown** ;
 - [Pandoc](http://pandoc.org/), le site officiel.
 
 --------------------------------------------------------------------------------

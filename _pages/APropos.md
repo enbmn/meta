@@ -14,7 +14,7 @@ Vous trouverez ici des billets techniques ou théoriques. Ce site ne vise qu'à 
 
 # Auteur
 
-Après des débuts en bibliothèque universitaire (d'histoire de l'art puis de droit), je travaille aujourd'hui dans une bibliothèque municipale patrimoniale (classée). Spécialisé dans l'histoire du livre et de l'imprimerie, je me consacre depuis quelques années aux technologies numériques.
+Après des débuts en bibliothèque universitaire, je travaille aujourd'hui dans une bibliothèque municipale patrimoniale. Spécialisé dans l'histoire du livre et de l'imprimerie, je me consacre depuis quelques années aux technologies numériques appliquées à la valorisation du patrimoine.
 
 # Configuration
 
