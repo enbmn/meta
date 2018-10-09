@@ -29,7 +29,7 @@ Les derniers projets sur lesquels j'ai eu à travailler m'ont confirmé une chos
 
 - Il me faut aussi avoir un accès décentralisé à mes fichiers de travail, avant de les finaliser pour les publier ou les archiver sur les serveurs Ville (saturés et lents), mais en garantir une sauvegarde intermédiaire, voire un versionning.
 
-- Je veux aussi pouvoir partager mes fichiers pour un travail collaboratif. Et là ça se complique, surtout si j'ajoute que j'aimerai bien me passer du malheureusement 'incontournable **Google Drive**.
+- Je veux aussi pouvoir partager mes fichiers pour un travail collaboratif. Et là ça se complique, surtout si j'ajoute que j'aimerai bien me passer du malheureusement l'incontournable **Google Drive**.
 
 # Ébauches de réponses
 
@@ -41,7 +41,7 @@ Voici les briques de mon "système", il n'y a rien de révolutionnaire.
 
 ### Markdown
 
-Je l'ai déjà écrit, [**Markdown**]({{ site.baseurl }}/carnet/utiliser-Markdown)) est, pour le texte, la clef de voute de l'interopérabilité. Il se lit dans n'importe que logiciel, peut se transformer de multiples manières (grâce à [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc) ou à des éditeurs **Markdown**) et offre une syntaxe suffisante pour 90 % des besoins rédactionnels
+Je l'ai déjà écrit, [**Markdown**]({{ site.baseurl }}/carnet/utiliser-Markdown) est, pour le texte, la clef de voute de l'interopérabilité. Il se lit dans n'importe que logiciel, peut se transformer de multiples manières (grâce à [**Pandoc**](https://enacit1.epfl.ch/markdown-pandoc/#installation-de-pandoc) ou à des éditeurs **Markdown**) et offre une syntaxe suffisante pour 90 % des besoins rédactionnels
 
 ### LibeOffice
 
