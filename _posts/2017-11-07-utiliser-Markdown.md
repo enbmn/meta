@@ -68,7 +68,7 @@ Voici une petite sélection d'outils pour vous lancer dans **Markdown**.
 - [**Atom**](https://atom.io/) éditeur de texte libre et survitaminé, supporte Markdown et une multitude d'autres langages (fonctionne avec des plugins) ;
 - [**SimpleNote**](https://simplenote.com/), pour **Ipad** et **Iphone** ;
 - [**nVALT**](http://brettterpstra.com/projects/nvalt/) pour **Mac** ;
-- **[MarkdownPad**](<http://markdownpad.com/faq.html#portable>) pour **Windows** , à l'avantage d'être en version portable (si on ne peut pas installer sur sa machine ;)) ;
+- **[MarkdownPad**](<http://markdownpad.com/faq.html#portable>) pour **Windows**, à l'avantage d'être en version portable (si on ne peut pas installer sur sa machine) ;
 - [**Remarkable**](http://remarkableapp.net/) pour **Linux** à l'air pas mal (non testé).
 
 ### En ligne
