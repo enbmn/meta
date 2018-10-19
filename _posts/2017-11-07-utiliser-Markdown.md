@@ -81,6 +81,11 @@ Voici une petite sélection d'outils pour vous lancer dans **Markdown**.
 - [Heck yes markdown](http://heckyesmarkdown.com/) est une `API` en ligne qui vous permet de transformer une page web (html) en texte balisé en **Markdown** ;
 - [Pandoc](http://pandoc.org/), le site officiel.
 
---------------------------------------------------------------------------------
+# Bibliographie
+
+Deux billets extrêmement documentés sur l'histoire et l'intérêt de l'utilisation du standard **Markdown** face aux éditeurs de textes _WYSIWYG._
+
+- Julien Dehut, "En finir avec Word ! Pour une analyse des enjeux relatifs aux traitements de texte et à leur utilisation", dans _L'Atelier des Savoirs, 23 janvier 2018_, <https://eriac.hypotheses.org/80> consulté le 18/10/2018.
+- Antoine Fauchié, " Markdown comme condition d'une norme de l'écriture numérique" , dans _Quaternum, carnet_, <https://www.quaternum.net/2018/10/18/markdown-comme-condition-d-une-norme-de-l-ecriture-numerique/>, consulté le 18/10/2018
 
 [^1]: Toujours en ligne de commande mais il faut avoir en plus [LaTeX](https://fr.wikipedia.org/wiki/LaTeX) d'installé sur la machine.
