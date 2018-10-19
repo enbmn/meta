@@ -65,21 +65,22 @@ Voici une petite sélection d'outils pour vous lancer dans **Markdown**.
 
 ### À installer
 
-- [Atom](https://atom.io/) éditeur de texte libre et survitaminé, supporte Markdown et une multitude d'autres langages (fonctionne avec des plugins) ;
-- [SimpleNote](https://simplenote.com/), pour **Ipad** et **Iphone** ;
-- [nVALT](http://brettterpstra.com/projects/nvalt/) pour **Mac** ;
-- [MarkdownPad](http://markdownpad.com/faq.html#portable) pour **Windows** qui à l'avantage d'être en version portable (si on ne peut pas installer sur sa machine ;)) ;
-- [Remarkable](http://remarkableapp.net/) pour **Linux** à l'air pas mal (non testé).
+- [**Atom**](https://atom.io/) éditeur de texte libre et survitaminé, supporte Markdown et une multitude d'autres langages (fonctionne avec des plugins) ;
+- [**SimpleNote**](https://simplenote.com/), pour **Ipad** et **Iphone** ;
+- [**nVALT**](http://brettterpstra.com/projects/nvalt/) pour **Mac** ;
+- **[MarkdownPad**](<http://markdownpad.com/faq.html#portable>) pour **Windows** qui à l'avantage d'être en version portable (si on ne peut pas installer sur sa machine ;)) ;
+- [**Remarkable**](http://remarkableapp.net/) pour **Linux** à l'air pas mal (non testé).
 
 ### En ligne
 
-- [StackEdit](https://stackedit.io/), extension **Google docs** pour **Markdown** et éditeur en ligne avec interface de saisie et quelques exports possibles (et gestion de **Google Drive** et **Dropbox**) ;
+- [**Markable.in**](https://markable.in/), qui offre la possibilité de se connecter à sa **dropbox** ou à **Evernote**, et dispose de templates d'export. L'éditeur est propre et dispose d'une possibilité de versionner les textes ;
+- [**StackEdit**](https://stackedit.io/), extension **Google docs** pour **Markdown** et éditeur en ligne avec interface de saisie et quelques exports possibles (et gestion de **Google Drive** et **Dropbox**).
 
 ## D'autres outils pratiques
 
-- [Tester Markdown en ligne avant de vous lancer](https://michelf.ca/projets/php-markdown/banc-d'essai/) ;
-- [Heck yes markdown](http://heckyesmarkdown.com/) est une `API` en ligne qui vous permet de transformer une page web (html) en texte balisé en **Markdown** ;
-- [Pandoc](http://pandoc.org/), le site officiel.
+- [Tester **Markdown** en ligne avant de vous lancer](https://michelf.ca/projets/php-markdown/banc-d'essai/) ;
+- [**Heck yes markdown**](http://heckyesmarkdown.com/) est une `API` en ligne qui vous permet de transformer une page web (html) en texte balisé en **Markdown** ;
+- [**Pandoc**](http://pandoc.org/), le site officiel.
 
 # Bibliographie
 
