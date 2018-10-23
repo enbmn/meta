@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: _config.yml
+https://enbmn.github.io/meta/sitemap.xml
+
+Sitemap: https://enbmn.github.io/meta/sitemap.xml
